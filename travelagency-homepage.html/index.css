@@ -1,0 +1,150 @@
+/* Grundinställningar */
+body,
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Header */
+.header,
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #24f0dc;
+    color: rgb(0, 8, 10);
+    padding: 0.5rem 1rem;
+}
+
+.navlinks,
+.links,
+.socials {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-cta {
+    background: #626464;
+    border: none;
+    border-radius: 4px;
+    color: rgb(214, 237, 237);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    flex: 3;
+}
+
+  .card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    max-width: 500px;
+    align-items: center;
+    padding: 1rem;
+    
+  }
+
+ 
+  a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    align-items: center;
+}
+
+
+.nav a {
+    margin: 0 1rem;
+    color: white;
+}
+
+
+.card img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.card h3 {
+    margin: 0.5rem 0;
+    align-items: center;
+
+}
+
+/* Sidokolumn */
+.sidebar {
+    flex: 1;
+    max-width: 300px;
+    background-color: #8c9292;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+
+.footer section {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.footer h4 {
+    margin-bottom: 1rem;
+}
+
+/* Responsiv design */
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        max-width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer section {
+        margin-bottom: 1rem;
+    }
+} 

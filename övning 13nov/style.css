@@ -1,0 +1,172 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+
+}
+
+main{
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+h1{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #333;
+}
+
+form label,
+legend{
+    font-size: 0.9rem;
+    color: #555;
+}
+
+input[type="text"]
+input[type="email"]
+input[type="password"]{
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+input[type="text"]:focus
+input[type="email"]:focus
+input[type="password"]:focus{
+    outline: none;
+    border-color: hotpink;
+    background-color: #ffe0f0;
+}
+
+input[type="checkbox"]:focus {
+    outline: 2px solid hotpink;
+    outline-offset: 2px;
+}
+
+input[type="range"]:focus {
+    outline: 2px solid hotpink;
+    background-color: #ffe0f0;
+}
+
+fieldset{
+    margin: 1rem 0px;
+    border: none;
+}
+
+fieldsetlabel{
+    display: inline-flex;
+    padding-top: 1rem;
+    margin-right: 1.2rem;
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9d9c9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* استایل فرم */
+form {
+    background-color: #d0f6f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow:0 0 10px rgba(56, 56, 56, 0.1);
+    width: 300px;
+}
+
+form h2 {
+    text-align: center;
+    color: #4CAF50;
+
+}
+
+/* استایل فیلدها */
+label {
+    margin-top: 10px;
+    display: block;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+    width: 95%;
+    padding: 8px;
+    margin: 8px 20;
+    
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    
+}
+
+/* استایل چک‌باکس‌ها و رنج */
+ fieldset {
+    border: none;
+    margin-top: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="range"] {
+    width: 90%;
+}
+
+/* استایل دکمه ارسال */
+button {
+    width: 95%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* استایل تمرکز (focus) برای بهبود دسترسی */
+input:focus, select:focus, button:focus {
+    outline: 2px solid #4CAF50;
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.2);
+}
+form {
+    background-color: #fff;
+    padding: 20px; /* فاصله داخلی برای فاصله بین فیلدها و لبه‌های فرم */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* استایل لیست کشویی برای ایجاد فاصله */
+select {
+    margin-bottom: 20px; /* فاصله بین لیست کشویی و دکمه ثبت */
+}
